@@ -96,28 +96,28 @@ class Google extends AbstractService
     // Scopes for devices (what's the use case for device scopes?)
     const SCOPE_ADMIN_DIRECTORY_DEVICE_CHROMEOS =
         'https://www.googleapis.com/auth/admin.directory.device.chromeos';
-    const SCOPE_ADMIN_DIRECTORY_DEVICE_CHROMEOS_READONLY =
+    const SCOPE_ADMIN_DIRECTORY_DEVICE_CHROMEOS_READ_ONLY =
         'https://www.googleapis.com/auth/admin.directory.device.chromeos.readonly';
     const SCOPE_ADMIN_DIRECTORY_DEVICE_MOBILE =
         'https://www.googleapis.com/auth/admin.directory.device.mobile';
-    const SCOPE_ADMIN_DIRECTORY_DEVICE_MOBILE_READONLY =
+    const SCOPE_ADMIN_DIRECTORY_DEVICE_MOBILE_READ_ONLY =
         'https://www.googleapis.com/auth/admin.directory.device.mobile.readonly';
     const SCOPE_ADMIN_DIRECTORY_DEVICE_MOBILE_ACTION =
         'https://www.googleapis.com/auth/admin.directory.device.mobile.action';
     // Scopes for groups, group aliases, and group members
     const SCOPE_ADMIN_DIRECTORY_GROUP =
         'https://www.googleapis.com/auth/admin.directory.group';
-    const SCOPE_ADMIN_DIRECTORY_GROUP_RO =
+    const SCOPE_ADMIN_DIRECTORY_GROUP_READ_ONLY =
         'https://www.googleapis.com/auth/admin.directory.group.readonly';
     // Scopes for organization units
     const SCOPE_ADMIN_DIRECTORY_ORGUNIT =
         'https://www.googleapis.com/auth/admin.directory.orgunit';
-    const SCOPE_ADMIN_DIRECTORY_ORGUNIT_READONLY =
+    const SCOPE_ADMIN_DIRECTORY_ORGUNIT_READ_ONLY =
         'https://www.googleapis.com/auth/admin.directory.orgunit.readonly';
     // Scopes for users and user aliases
     const SCOPE_ADMIN_DIRECTORY_USER =
         'https://www.googleapis.com/auth/admin.directory.user';
-    const SCOPE_ADMIN_DIRECTORY_USER_READONLY =
+    const SCOPE_ADMIN_DIRECTORY_USER_READ_ONLY =
         'https://www.googleapis.com/auth/admin.directory.user.readonly';
 
 
